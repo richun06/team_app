@@ -62,6 +62,7 @@ group :development do
   gem 'listen', '~> 3.0.5'
   gem 'rack-mini-profiler', require: false
   gem 'web-console', '>= 3.3.0'
+  gem 'letter_opener_web'
 end
 
 group :test do
@@ -74,3 +75,5 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+
+gem 'rexml'
